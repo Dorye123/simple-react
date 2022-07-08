@@ -1,10 +1,11 @@
-// import React from 'react';
-// import ReactDOM from 'react-dom/client';
+import {Header,Button, Footer} from './Website-Components.js';
 
-function Footer() {
-    return <h1>Footer</h1>
-}
-
-function Header() {
-    return <h1>Header</h1>
-}
+export default function App() {
+    return (
+        <div>
+            <Header />
+            <Button color="red"/>
+            <Footer />
+        </div>
+    )
+};

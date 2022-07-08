@@ -19,8 +19,9 @@
   },
   "homepage": "https://github.com/Dorye123/simple-react#readme",
   "dependencies": {
-    "react-scripts": "^5.0.1",
-    "serve": "^13.0.4"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
   },
   "browserslist": {
     "production": [

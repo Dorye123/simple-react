@@ -44,3 +44,22 @@ In the first time that you'll be executing `npm start` which is `react-scripts s
 If no browser was detected , you will be asked if you would like to use the default browser. Press `Y`.  
 
 
+### npm install
+```bash
+npm install react-scripts
+npm install react
+npm install react-dom
+
+```
+
+### Setting a debugger in vsCode for React
+https://code.visualstudio.com/docs/nodejs/reactjs-tutorial#_configure-the-debugger
+
+### Help for advanced React
+https://www.freecodecamp.org/news/react-beginners-guide/
+
+## Concepts in React
+`React components` [link](https://www.w3schools.com/react/react_components.asp) are the functions and class that we are creating to reuse them.    
+They are the core idea of React.  
+`React Props (properties)` [link](https://www.w3schools.com/react/react_components.asp) are the way we are adding properties to the components we created which are classes and functions.  
+`React Conditions` [link](https://www.w3schools.com/react/react_jsx.asp) They are happening outside of the HTML elements.  As in HTML we do not want to calculate.  
