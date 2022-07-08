@@ -1,0 +1,24 @@
+{
+  "name": "simple-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "build": "build",
+    "test": "test",
+    "start": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dorye123/simple-react.git"
+  },
+  "author": "Dor Yehoshua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dorye123/simple-react/issues"
+  },
+  "homepage": "https://github.com/Dorye123/simple-react#readme",
+  "dependencies": {
+    "serve": "^13.0.4"
+  }
+}
