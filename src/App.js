@@ -1,5 +1,10 @@
 // import React from 'react';
-import ReactDOM from 'react-dom/client';
+// import ReactDOM from 'react-dom/client';
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Header />);
+function Footer() {
+    return <h1>Footer</h1>
+}
+
+function Header() {
+    return <h1>Header</h1>
+}
