@@ -1,11 +1,11 @@
-import {Header,Button, Footer} from './Website-Components.js';
+// import {Header,Button, Footer} from './Website-Components.js';
 
-export default function App() {
+function App() {
     return (
-        <div>
-            <Header />
-            <Button color="red"/>
-            <Footer />
+        <div className="App">
+            <p>I am from App</p>
         </div>
-    )
-};
+    );
+}
+
+export default App;

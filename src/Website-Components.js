@@ -1,3 +1,4 @@
+import React from 'react';
 // React Components:
 // Each component is reuseable and independent.
 // They are LIKE functions that return HTML code.
@@ -31,7 +32,7 @@ class Button extends React.Component {
 // A Function component also returns HTML, and behaves much the same way as a Class component, 
 // but Function components can be written using much less code, are easier to understand.
 function Footer() {
-    return <h1>Footer</h1>
+    return 
 }
 
 function Header() {
