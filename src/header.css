@@ -30,9 +30,8 @@ button { /* directing to the type of element "button" */
 }
 
 .Logo {
-    height: 500px;
-    width: 600px;
-    left: 21px;
+    height: 150px;
+    width: 150px;
     top: 21px;
     border-radius: 0px;
 }

@@ -41,7 +41,7 @@ function Logo () {
     return (
         <div>
             {/*Path to images is related between the index.html file or any other file to the location of the image. NOT THE CODE */}
-            <img src='imgs/stairs-logo.jpg' alt={brand}></img>
+            <img src='imgs/stairs-logo.jpg' alt={brand} className='Logo'></img>
         </div>
     )
 }
