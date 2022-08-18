@@ -1,0 +1,88 @@
+.Header {
+    background-color: aquamarine;
+}
+
+button { /* directing to the type of element "button" */ 
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 252px;
+    height: 59px;
+    top: 54px;
+
+    background: #C3A07A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn-Language button {
+    all: inherit;
+    left: 1020px;
+}
+
+.btn-Aboutus button {
+    all: inherit;
+    left: 1322px;
+}
+
+.btn-Terminology button {
+    all: inherit;
+    left: 1624px; 
+}
+
+.Logo {
+    height: 500px;
+    width: 600px;
+    left: 21px;
+    top: 21px;
+    border-radius: 0px;
+}
+
+
+.LanguageText {
+    /* position: absolute;
+    width: 227px;
+    height: 46px;
+    left: 1070px;
+    top: 64px; */
+    
+    font-family: 'CocoSharp Trial';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #000000;
+}
+
+.AboutusText {
+    /* position: absolute;
+    width: 130px;
+    height: 38px;
+    left: 1383px;
+    top: 68px; */
+
+    font-family: 'CocoSharp Trial';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #000000;
+}
+
+.TerminologyText {
+    /* position: absolute;
+    width: 190px;
+    height: 43px;
+    left: 1666px;
+    top: 62px; */
+
+    font-family: 'CocoSharp Trial';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #000000;
+}
+

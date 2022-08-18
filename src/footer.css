@@ -1,0 +1,75 @@
+
+.Footer {
+    background-color: aquamarine ;
+}
+
+
+.Language {
+    font-family: 'Dorian CLM';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    /* identical to box height */
+
+    text-align: right;
+
+    color: #000000;
+}
+
+.EmailBox {
+    font-family: 'Dorian CLM';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    /* identical to box height */
+
+    text-align: right;
+
+    color: #000000;    
+}
+
+
+
+
+
+
+
+
+/* .EmailText {
+    position: absolute;
+    width: 230px;
+    height: 31px;
+    left: 1646px;
+    top: 1035px;
+
+    font-family: 'Dorian CLM';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+
+    text-align: right;
+
+    color: #000000;  
+} */
+
+/* .LanguageText {
+    position: absolute;
+    width: 69px;
+    height: 31px;
+    left: 1445px;
+    top: 1035px;
+
+    font-family: 'Dorian CLM';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+     identical to box height
+
+    text-align: right;
+
+    color: #000000;
+} */

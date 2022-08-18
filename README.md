@@ -68,3 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+#### CSS
+https://www.w3docs.com/snippets/css/how-to-style-buttons-with-css.html  for examples 
+ideas for naming convensions in css https://hackernoon.com/best-practice-in-css-organisation-and-naming-conventions-4d103ujy 
