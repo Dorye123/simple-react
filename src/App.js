@@ -7,7 +7,6 @@ import Body from './body.js';
 function App() {
   return (
     <div className="App">
-        <p>Is this still working</p>
         <Header />
         <Body />
         <Footer />

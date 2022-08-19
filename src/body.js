@@ -12,7 +12,7 @@ export default function Body() {
 
 function RegularStairs() {
     return (
-        <img src='imgs/regular-stairs.jpg' alt='Regular stairs calculation' className='img' ></img>
+        <img src='imgs/new-regular-stairs.jpg' alt='Regular stairs calculation' className='img' ></img>
     )
 }
 
