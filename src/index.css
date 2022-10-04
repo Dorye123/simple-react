@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* css values for the default html we show our clients:  */
+/* It became useful right when I have set it. */
+/* html {
+  box-sizing: border-box;
+} */
+
+/* *, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}  */

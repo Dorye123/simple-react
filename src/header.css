@@ -1,87 +1,52 @@
-.Header {
-    background-color: aquamarine;
+.navbar {
+  display: flex;
+  height: 10%;
+  align-items: center;
+  box-sizing: border-box;
+  margin-left:3%;
+  margin-bottom: 3%;
 }
 
-button { /* directing to the type of element "button" */ 
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 252px;
-    height: 59px;
-    top: 54px;
-
-    background: #C3A07A;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+  }
 }
 
-.btn-Language button {
-    all: inherit;
-    left: 1020px;
+.Logo { 
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
 }
 
-.btn-Aboutus button {
-    all: inherit;
-    left: 1322px;
+.navbar ul li p:hover {
+  background-color: gray;
+  color: white;
+  cursor: pointer;
 }
 
-.btn-Terminology button {
-    all: inherit;
-    left: 1624px; 
+.navbar ul li p {
+  color: black;
+  padding: 8px 16px;
+  margin-right: 5px;
+  background-color: white;
 }
 
-.Logo {
-    height: 150px;
-    width: 150px;
-    top: 21px;
-    border-radius: 0px;
+.navbar ul li {
+  margin-left: 10%;
+  list-style: none;
+  display: inline-flex;
 }
 
-
-.LanguageText {
-    /* position: absolute;
-    width: 227px;
-    height: 46px;
-    left: 1070px;
-    top: 64px; */
-    
-    font-family: 'CocoSharp Trial';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 32px;
-    line-height: 38px;
-
-    color: #000000;
+.TerminationsText { 
+  text-align: center;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.AboutusText {
-    /* position: absolute;
-    width: 130px;
-    height: 38px;
-    left: 1383px;
-    top: 68px; */
-
-    font-family: 'CocoSharp Trial';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 32px;
-    line-height: 38px;
-
-    color: #000000;
+.TerminologyDiv {
+  flex: 70%;
+  padding: 30px;
 }
-
-.TerminologyText {
-    /* position: absolute;
-    width: 190px;
-    height: 43px;
-    left: 1666px;
-    top: 62px; */
-
-    font-family: 'CocoSharp Trial';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 32px;
-    line-height: 38px;
-
-    color: #000000;
-}
-

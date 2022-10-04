@@ -3,46 +3,35 @@ import './header.css';
 
 export default function Header() {
     return (
-        <div className='Header'>
-            {/* <h1>Header</h1> */}
-            <Terminology />
-            <AboutUs />
-            <Language />
-            <Logo />
+        <Navbar/>
+    )
+}
+
+function ListOfTerminology() {
+    return (
+        <div className='TerminologyDiv'>
+            <ul>
+                <li><p className="TerminationsText">Rise and Tread</p></li>
+                <li><p className="TerminationsText">Podest</p></li>
+                <li><p className="TerminationsText">Regulations</p></li>
+            </ul>
         </div>
     )
 }
 
-function Terminology () {
+function Navbar() {
     return (
-        <button className='btn-Terminology'>
-            <p className='' >Terminology</p>
-        </button>
-    )
-}
-
-function AboutUs () {
-    return (
-        <button className='btn-Aboutus'>
-            <p className='' >About us</p>
-        </button>
-    )
-}
-
-function Language () {
-    return (
-        <button className='btn-Language'>
-            <p className='' >Language</p>
-        </button>
-    )
-}
-
-function Logo () {
-    return (
-        <div>
-            {/*Path to images is related between the index.html file or any other file to the location of the image. NOT THE CODE */}
-            <img src='imgs/stairs-logo.jpg' alt={brand} className='Logo'></img>
+        <div className='navbar'>
+            <Logo/>
+            <ListOfTerminology/>
         </div>
+    )
+}
+
+function Logo () { 
+    return (
+        // {/*Path to images is related between the index.html file or any other file to the location of the image. NOT THE CODE */}
+        <img src='imgs/stairs-logo.jpg' alt={brand} className='Logo'></img>
     )
 }
 
