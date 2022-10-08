@@ -5,6 +5,8 @@
   box-sizing: border-box;
   margin-left:3%;
   margin-bottom: 3%;
+  background-color: #C1A07C29;
+  ;
 }
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
@@ -27,6 +29,8 @@
   cursor: pointer;
 }
 
+/* .navbar ul li p::after {} */
+
 .navbar ul li p {
   color: black;
   padding: 8px 16px;
@@ -42,11 +46,18 @@
 
 .TerminationsText { 
   text-align: center;
-  font-size: 40px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif; 
+  color: #C1A07C;
+  ;
 }
 
 .TerminologyDiv {
   flex: 70%;
   padding: 30px;
+}
+
+.hiddenText {
+  display: none; 
 }
