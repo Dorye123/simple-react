@@ -1,8 +1,50 @@
-Body {
-    background-color: red;
-}
 
 img {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
+}
+
+.row { 
+    display: flex;
+    height: 70%;
+    align-items: center;
+}
+
+.row .IntroductionText {
+    flex-basis: 50%;
+}
+
+.row .IntroductionText h1 {
+    font-size: 40px;
+}
+
+.row .IntroductionText p {
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.row .image {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    border-radius: 150px;
+    padding: 150px 250px;
+    margin: 10px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    transition: transform  0.5s;
+}
+
+.row .image:hover {
+    transform: translateX(10px); /* Will move to the right or left */
+}
+
+.row .circluar {
+    background-image: url("../public/imgs/circular-stairs.jpg");
+}
+
+.row .regular {
+    background-image: url("../public/imgs/regular-stairs.jpg");
 }
